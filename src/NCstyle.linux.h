@@ -72,9 +72,9 @@ inline void NCstyleInit_linux( std::vector<NCstyle::Style> & styleSet )
     attrset->setAttr( NCstyle::ListLabel, 8192 );
     attrset->setAttr( NCstyle::ListData, 9216 | A_BOLD );
     attrset->setAttr( NCstyle::ListHint, 9216 | A_BOLD );
-    attrset->setAttr( NCstyle::ListSelPlain, 8192 );
-    attrset->setAttr( NCstyle::ListSelLabel, 8192 );
-    attrset->setAttr( NCstyle::ListSelData, 9216 | A_BOLD );
+    attrset->setAttr( NCstyle::ListSelPlain, 0 );
+    attrset->setAttr( NCstyle::ListSelLabel, 0 );
+    attrset->setAttr( NCstyle::ListSelData, 0 | A_BOLD );
     attrset->setAttr( NCstyle::ListSelHint, 9216 | A_BOLD );
     attrset->setAttr( NCstyle::ListActiveTitle, 8192 );
     attrset->setAttr( NCstyle::ListActivePlain, 8192 );
